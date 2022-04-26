@@ -1,0 +1,12 @@
+name: Sean Buckle
+description: Front-end development
+url: https://seanbuckle.com
+enforce_ssl: seanbuckle.com
+markdown: kramdown
+highlighter: pygments.rb # or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+github_username:  seanbuckle
+plugins: [jekyll-github-metadata,jekyll-seo-tag,jekyll-coffeescript,jekyll-commonmark-ghpages,jekyll-gist,jekyll-github-metadata,jekyll-paginate,jekyll-relative-links,jekyll-optional-front-matter,jekyll-readme-index,jekyll-default-layout,jekyll-titles-from-headings]
+paginate: 5
+future: true
+permalink: pretty
