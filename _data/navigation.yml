@@ -1,6 +1,6 @@
-- name: About
-  link: /about.html
-- name: Resume
-  link: /resume.html
-- name: Contact
-  link: /contact.html
+- title: About
+  url: /about/
+- title: Resume
+  url: /resume/
+- title: Contact
+  url: /contact/
