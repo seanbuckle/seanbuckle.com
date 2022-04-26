@@ -17,7 +17,6 @@ plugins:
   - jekyll-relative-links
   - jekyll-optional-front-matter
   - jekyll-readme-index
-  - jekyll-default-layout
   - jekyll-titles-from-headings
 paginate: 5
 future: true
