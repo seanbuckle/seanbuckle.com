@@ -1,8 +1,17 @@
+<nav class="nav-drawer">
+  {% for item in site.data.navigation %}
+      <a href="{{item.url}}" class="nav-drawer__item">{{item.title}}</a>
+   {% endfor %}
+</nav>
+<span class="">
+menu_open
+</span>
 <header class="site-header">
-  <a class="site-header_brand">{{site.title}}</a>
-  <nav class="site-header_nav">
+  <button class="site-header__menu-btn material-symbols-outlined">menu</button>
+  <a class="site-header__brand">{{site.title}}</a>
+  <nav class="site-header__nav">
    {% for item in site.data.navigation %}
-      <a href="{{item.url}}" class="site-header_nav-item">{{item.title}}</a>
+      <a href="{{item.url}}" class="site-header__nav-item">{{item.title}}</a>
    {% endfor %}
   </nav>
 </header>
