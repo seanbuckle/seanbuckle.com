@@ -7,8 +7,10 @@
 menu_open
 </span>
 <header class="site-header">
-  <button class="site-header__menu-btn material-symbols-outlined">menu</button>
-  <a class="site-header__brand">{{site.title}}</a>
+   <section class="site-header__spacer">
+      <button class="site-header__menu-btn material-symbols-outlined">menu</button>
+      <a class="site-header__name">{{site.title}}</a>
+   </section>
   <nav class="site-header__nav">
    {% for item in site.data.navigation %}
       <a href="{{item.url}}" class="site-header__nav-item">{{item.title}}</a>
