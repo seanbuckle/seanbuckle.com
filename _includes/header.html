@@ -3,17 +3,14 @@
       <a href="{{item.url}}" class="nav-drawer__item">{{item.title}}</a>
    {% endfor %}
 </nav>
-<span class="">
-menu_open
-</span>
-<header class="site-header">
+<header class="site-header" role="banner">
    <section class="site-header__spacer">
-      <button class="site-header__menu-btn material-symbols-outlined">menu</button>
+      <button class="site-header__menu-btn material-symbols-outlined" role="button">menu</button>
       <a class="site-header__name">{{site.title}}</a>
    </section>
   <nav class="site-header__nav">
-   {% for item in site.data.navigation %}
-      <a href="{{item.url}}" class="site-header__nav-item">{{item.title}}</a>
-   {% endfor %}
+     {% for item in site.data.navigation %}
+     <a href="{{item.url}}" class="nav-drawer__item">{{item.title}}</a>
+     {% endfor %}
   </nav>
 </header>
