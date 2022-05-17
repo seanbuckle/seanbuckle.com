@@ -14,6 +14,7 @@ $text-monospace: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", 
   }
 }
 body{
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   font: 400 16px/24px $text-san-serif;
@@ -51,6 +52,7 @@ body{
 .site-footer{
   width: 100%;
   height: 64px;
+  margin-top: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
