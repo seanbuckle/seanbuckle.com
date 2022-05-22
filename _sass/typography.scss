@@ -1,1 +1,21 @@
+$text-san-serif: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+$text-monospace: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro","Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
+:root{
+  --heading-1: 300 84px/42px $text-monospace;
+  --heading-1--spacing: 1.75px;
+  --heading-2: 300 72px/12px $text-monospace;
+  --heading-2--spacing: 1.5px;
+  --heading-3: 400 60px/12px $text-monospace;
+  --heading-3--spacing: 0.5px;
+  --heading-4: 400 48px/12px $text-monospace;
+  --heading-4--spacing: 0px;
+  --heading-5: 400 36px/12px $text-monospace;
+  --heading-5--spacing: 0.25px;
+  --heading-6: 500 24px/12px $text-monospace;
+  --heading-6--spacing: 0px;
+  --body-1: 400 20px/10px $text-san-serif;
+  --body-1--spacing: 0.5px;
+  --body-2: 400 18px/9px $text-san-serif;
+  --body-2--spacing: 0.9px;
+}
