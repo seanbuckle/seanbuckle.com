@@ -17,7 +17,38 @@ $lightness-98: 98%;
 $lightness-99: 99%;
 $lightness-100: 100%;
 :root{
-  
+  --color-primary-0: hsl(#{$color-primary},#{$lightness-0});
+  --color-primary-10: hsl();
+  --color-primary-20: hsl();
+  --color-primary-25: hsl();
+  --color-primary-30: hsl();
+  --color-primary-35: hsl();
+  --color-primary-40: hsl();
+  --color-primary-50: hsl();
+  --color-primary-60: hsl();
+  --color-primary-70: hsl();
+  --color-primary-80: hsl();
+  --color-primary-90: hsl();
+  --color-primary-95: hsl();
+  --color-primary-98: hsl();
+  --color-primary-99: hsl();
+  --color-primary-100: hsl();
+  --color-neutral-0: hsl();
+  --color-neutral-10: hsl();
+  --color-neutral-20: hsl();
+  --color-neutral-25: hsl();
+  --color-neutral-30: hsl();
+  --color-neutral-35: hsl();
+  --color-neutral-40: hsl();
+  --color-neutral-50: hsl();
+  --color-neutral-60: hsl();
+  --color-neutral-70: hsl();
+  --color-neutral-80: hsl();
+  --color-neutral-90: hsl();
+  --color-neutral-95: hsl();
+  --color-neutral-98: hsl();
+  --color-neutral-99: hsl();
+  --color-neutral-100: hsl();
 }
 @media (prefers-color-scheme: dark){
   
