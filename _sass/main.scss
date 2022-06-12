@@ -3,12 +3,6 @@
   margin:0;
   box-sizing: border-box;
 }
-@media (prefers-color-scheme: dark){
-  :root{
-    --color-primary: hsl($color-primary,50%);
-
-  }
-}
 body{
   min-height: 100vh;
   display: flex;
