@@ -1,19 +1,18 @@
 import { ComponentChildren } from "preact";
+import { Header } from "../components/Header.tsx";
 import { Footer } from "../components/Footer.tsx";
-import { useContext } from "preact/hooks";
-import { TitleContext } from "../context/TitleContext.tsx";
 
 interface LayoutProps {
   children: ComponentChildren;
   title: string;
 }
 
-export default function Layout({ children, title }: LayoutProps) {
-  const context = useContext(TitleContext);
+export default function Layout({ children }: LayoutProps) {
   return (
     <>
+      <Header />
       {children}
-      <Footer title={context?.title} />
+      <Footer />
     </>
   );
 }
