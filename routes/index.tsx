@@ -1,15 +1,11 @@
+import { Projects } from "../islands/Projects.tsx";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Welcome to Fresh!</h1>
-      <p>
-        Get started by editing <code>routes/index.tsx</code>
-      </p>
-      <p>
-        <a href="https://fresh.deno.dev/docs/getting-started">
-          Docs
-        </a>
-      </p>
-    </div>
+    <>
+      <h1>Welcome to My Portfolio</h1>
+      <p>This is a simple portfolio page.</p>
+      <Projects />
+    </>
   );
 }
