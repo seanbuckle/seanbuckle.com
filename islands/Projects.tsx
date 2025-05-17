@@ -15,8 +15,20 @@ export function Projects() {
     setIsLoading(true);
     getProjects()
       .then((projects) => {
-        console.log(projects);
-        setProjects(projects);
+        const names = [
+          "Advice-generator-app",
+          "age-calculator",
+          "Interactive-rating-component",
+          "nc-news",
+          "nc-news-api",
+          "Results-summary-component"];
+        const filteredProjects = projects.filter((project: Project) =>
+          names.includes(project.name),
+        );
+        
+        console.log(filteredProjects);
+        
+        setProjects(filteredProjects);
         setIsLoading(false);
         setIsError(false);
       })
