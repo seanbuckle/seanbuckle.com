@@ -8,6 +8,15 @@ export function Projects() {
     html_url: string;
   }
 
+  const projectNames = [
+    "Advice-generator-app",
+    "age-calculator",
+    "Interactive-rating-component",
+    "nc-news",
+    "nc-news-api",
+    "Results-summary-component",
+  ];
+
   const [projects, setProjects] = useState<Project[]>([]);
   const [isError, setIsError] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
@@ -15,19 +24,12 @@ export function Projects() {
     setIsLoading(true);
     getProjects()
       .then((projects) => {
-        const names = [
-          "Advice-generator-app",
-          "age-calculator",
-          "Interactive-rating-component",
-          "nc-news",
-          "nc-news-api",
-          "Results-summary-component"];
         const filteredProjects = projects.filter((project: Project) =>
-          names.includes(project.name),
+          projectNames.includes(project.name)
         );
-        
+
         console.log(filteredProjects);
-        
+
         setProjects(filteredProjects);
         setIsLoading(false);
         setIsError(false);
