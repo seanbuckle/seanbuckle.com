@@ -4,7 +4,6 @@ import { Footer } from "../components/Footer.tsx";
 
 interface LayoutProps {
   children: ComponentChildren;
-  title: string;
 }
 
 export default function Layout({ children }: LayoutProps) {
