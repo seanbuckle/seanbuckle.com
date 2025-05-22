@@ -1,0 +1,67 @@
+{
+  "experience": [
+    {
+      "company": "Northcoders",
+      "position": "Software Developer",
+      "start_date": "2024-07-01",
+      "end_date": "2024-10-01",
+      "description": [
+        "Rapid skill acquisition through an intensive coding boot camp.",
+        "Focus on practical, in-demand software development skills with hands-on learning.",
+        "Extensive project-based work to build a demonstrable portfolio for career transition."
+      ]
+    },
+    {
+      "company": "Gillian Arnold",
+      "position": "Web Developer",
+      "start_date": "2021-09-01",
+      "end_date": "2022-03-01",
+      "description": [
+        "Analysed site with Google Analytics and heat maps and cut load time by 70%.",
+        "Refined Figma redesign, increasing user retention by 30%.",
+        "Revamped interface with industry best practices, increasing conversion rate by 20%."
+      ]
+    },
+    {
+      "company": "Peter Saville Design",
+      "position": "Frontend Developer",
+      "start_date": "2019-05-01",
+      "end_date": "2019-06-01",
+      "description": [
+        "Designed intuitive wireframes that streamlined user journeys.",
+        "Seamlessly transformed wireframes into interactive prototypes, reducing development time by 30%.",
+        "Optimised wireframes and prototypes, reducing user errors by 50%."
+      ]
+    },
+    {
+      "company": "Harrison Brown Financial Services",
+      "position": "Web Developer",
+      "start_date": "2018-05-01",
+      "end_date": "2018-06-01",
+      "description": [
+        "Redesign of the website resulted in a 15% reduction in bounce rate.",
+        "Optimised website navigation led to a 40% increase in session duration.",
+        "Improved website performance by 35%."
+      ]
+    },
+    {
+      "company": "Simonburn Tearoom",
+      "position": "Web Developer",
+      "start_date": "2012-06-01",
+      "end_date": "2012-06-01",
+      "description": [
+        "Designed user-centric CMS interface and streamlined content management workflows, reducing publishing time 35% and boosting user satisfaction 20%",
+        "Updated homepage for increased engagement: 25% higher click-throughs and 30% boost in customer engagement.",
+        "Optimised website performance, reducing bounce rate 40% and increasing session duration 25%."
+      ]
+    }
+  ],
+  "projects": [
+    "Advice-generator-app",
+    "age-calculator",
+    "Interactive-rating-component",
+    "nc-news",
+    "nc-news-api",
+    "Results-summary-component"
+  ]
+}
