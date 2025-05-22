@@ -4,7 +4,7 @@ import { TitleProvider } from "../context/TitleContext.tsx";
 export default function App({ Component }: PageProps) {
   const title = "Sean Buckle";
   return (
-    <html>
+    <html lang="en-GB">
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
