@@ -8,13 +8,12 @@ type HomeIslandProps = {
 };
 
 export default function HomeIsland({ content }: HomeIslandProps) {
-
   return (
     <ContentProvider content={content}>
       <h1>Welcome to My Portfolio</h1>
       <p>This is a simple portfolio page.</p>
       <Skills />
-      <Experience experience={content.experience}/>
+      <Experience experience={content.experience} />
       <Projects />
     </ContentProvider>
   );
