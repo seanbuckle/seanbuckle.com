@@ -1,17 +1,10 @@
-import { useContext } from "preact/hooks";
-import { ContentContext } from "../context/ContentContext.tsx";
-
 type Skill = {
   image: string;
   skill: string;
   link: string;
 };
 
-export function Skills() {
-  const context = useContext(ContentContext);
-
-  const skills: Skill[] = context.content.skills || [];
-
+export function Skills({ skills }: { skills: Skill[] }) {
   console.log("Skills:", skills);
 
   return (
