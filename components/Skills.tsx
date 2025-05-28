@@ -5,8 +5,6 @@ type Skill = {
 };
 
 export function Skills({ skills }: { skills: Skill[] }) {
-  console.log("Skills:", skills);
-
   return (
     <section class="skills">
       <h2>Skills</h2>
