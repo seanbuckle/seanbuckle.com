@@ -25,7 +25,6 @@ function formatDateRange(
 }
 
 export function Experience({ experience }: { experience: ExperienceItem[] }) {
-
   return (
     <>
       <article>
@@ -43,12 +42,9 @@ export function Experience({ experience }: { experience: ExperienceItem[] }) {
               <details>
                 <summary>Details</summary>
                 <ul>
-                    {Array.isArray(exp.description)
-                      ? exp.description.map((desc, i) => (
-                          <li key={i}>{desc}</li>
-                        ))
-                      : <li>{exp.description}</li>
-                    }
+                  {Array.isArray(exp.description)
+                    ? exp.description.map((desc, i) => <li key={i}>{desc}</li>)
+                    : <li>{exp.description}</li>}
                 </ul>
               </details>
             </section>
