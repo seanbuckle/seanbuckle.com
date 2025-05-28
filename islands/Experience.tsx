@@ -1,6 +1,3 @@
-import { getContent } from "../data/content.ts";
-import { useEffect, useState } from "preact/hooks";
-
 interface ExperienceItem {
   position: string;
   company: string;
@@ -27,18 +24,7 @@ function formatDateRange(
   return startStr && endStr ? `${startStr} – ${endStr}` : startStr || endStr;
 }
 
-export function Experience() {
-  const [experience, setExperience] = useState<ExperienceItem[]>([]);
-  useEffect(() => {
-    getContent()
-      .then((exp) => {
-        console.log(exp.experience, "<-- content");
-        setExperience(exp.experience as ExperienceItem[]);
-      })
-      .catch((error) => {
-        console.error("Error fetching content:", error);
-      });
-  }, []);
+export function Experience({ experience }: { experience: ExperienceItem[] }) {
 
   return (
     <>
