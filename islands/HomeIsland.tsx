@@ -14,7 +14,7 @@ export default function HomeIsland({ content }: HomeIslandProps) {
       <h1>Welcome to My Portfolio</h1>
       <p>This is a simple portfolio page.</p>
       <Skills />
-      <Experience />
+      <Experience experience={content.experience}/>
       <Projects />
     </ContentProvider>
   );
