@@ -27,8 +27,8 @@ function formatDateRange(
 export function Experience({ experience }: { experience: ExperienceItem[] }) {
   return (
     <>
-      <article>
-        <h2>Experience</h2>
+      <h2>Experience</h2>
+      <article class="experience">
         {experience &&
           experience.map((exp: ExperienceItem, i: number) => (
             <section key={i} class="card">

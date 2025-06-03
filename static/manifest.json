@@ -1,0 +1,16 @@
+{
+    "name": "Sean Buckle",
+    "short_name": "Sean Buckle",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#131318",
+    "theme_color": "#131318",
+    "description": "Personal website of Sean Buckle.",
+    "icons": [
+        {
+            "src": "/icon.svg",
+            "type": "image/svg+xml",
+            "sizes": "512x512"
+        }
+    ]
+}

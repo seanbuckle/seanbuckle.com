@@ -9,6 +9,7 @@ import * as $api_projects from "./routes/api/projects.ts";
 import * as $greet_name_ from "./routes/greet/[name].tsx";
 import * as $index from "./routes/index.tsx";
 import * as $Experience from "./islands/Experience.tsx";
+import * as $HeaderScroll from "./islands/HeaderScroll.tsx";
 import * as $HomeIsland from "./islands/HomeIsland.tsx";
 import * as $Projects from "./islands/Projects.tsx";
 import type { Manifest } from "$fresh/server.ts";
@@ -24,6 +25,7 @@ const manifest = {
   },
   islands: {
     "./islands/Experience.tsx": $Experience,
+    "./islands/HeaderScroll.tsx": $HeaderScroll,
     "./islands/HomeIsland.tsx": $HomeIsland,
     "./islands/Projects.tsx": $Projects,
   },

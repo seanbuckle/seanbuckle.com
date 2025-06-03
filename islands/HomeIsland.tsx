@@ -13,7 +13,7 @@ type HomeIslandProps = {
 
 export default function HomeIsland({ content }: HomeIslandProps) {
   return (
-    <main>
+    <main class="site-main">
       <h1>Welcome to My Portfolio</h1>
       <p>This is a simple portfolio page.</p>
       <Skills skills={content.skills} />
